@@ -1,0 +1,9 @@
+.row {
+  max-width: $grid-width; // 1 rem is 10px as defined in base
+  background-color: #eee;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+}

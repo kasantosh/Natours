@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%; //100% is 16px default - 62.5% is defined here for easy conversion of px to rems 10px = 1rem
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* box-sizing cancels adding pixels to borders */
+}
+
+body {
+  box-sizing: border-box;
+}
