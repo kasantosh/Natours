@@ -35,6 +35,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &::after {
     content: ""; /*content is mandatory to be used for this to work- also the psuedo element should be exactly same as the original button in this case*/
     display: inline-block;
